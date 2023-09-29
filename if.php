@@ -9,28 +9,28 @@
     <?php
     $numero1 = 5;
     $numero2 = 2;
-    $nome1 = 'Joaõ';
-    $nome2 = 'Robson';
+    $nome1 = 'Robson';
+    $nome2 = 'Pedro';
     $numero3 = 12;
     $numero4 = 11;
 
     //Verifica se $numero1 é maior que $numero2.
     if ($numero1 > $numero2){
-        echo "A expressão é verdadeira! <br>";
+        echo "5 é maior que 2! <br>";
     }else{
-        echo "A expressão é falsa! <br>";
+        echo "5 não é maior que 2! <br>";
     }
     //Verifica se $nome1 é diferente de $nome2.
     if ($nome1 != $nome2){
-        echo "João é diferente de Robson! <br>";
+        echo "Robson é diferente de Pedro! <br>";
     }else{
-        echo "João é igual a Robson!";
+        echo "Robson não é diferente de Pedro! <br>";
     }
-    //Verifica se $numero3 é maior ou igual a $numero4.
+    //Verifica se $numero3 é menor ou igual a $numero4.
     if ($numero3 <= $numero4){
-        echo "12 é maior que 11! <br>";
+        echo "12 é menor ou igual a 11! <br>";
     }else{
-        echo "12 não é maior, é igual a 11! <br>";
+        echo "12 não é menor ou igual a 11! <br>";
     }
     ?>
 </body>
